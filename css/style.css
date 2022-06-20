@@ -1,0 +1,243 @@
+#header{
+    height: 150px;
+    padding-bottom: 10px;
+}
+nav{
+    width: 100%;
+    background-color: #737373;
+}
+body{
+    background-color: #313139;
+    color: aliceblue;
+}
+
+a {
+    color:pink;
+}
+
+a:hover {
+    color: #9966cc;
+    text-decoration: none;
+}
+
+.text-hide { 
+    position: relative;
+    left: -110%;
+}
+
+#opis {
+    position: relative;
+    top: 30px;
+   left: -200px;
+    font-size: 52px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+#nav{
+    height: 60px;
+    width: 100%;
+    background: #696969;
+}
+#header h1{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+.pierwsza{
+    padding: 15px ;
+    
+}
+h1 {
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+
+img {
+    border: 6px double black;
+}
+
+img:hover{
+    opacity : 0.70;
+filter : alpha(opacity=70);
+}
+
+#jam {
+    position: relative; 
+    border-radius: 90px;
+}
+
+#jam:hover {
+    opacity : 0.70;
+    filter : alpha(opacity=70);
+}
+
+#tworca {
+    color: black;
+}
+
+#one{ 
+    position: relative; 
+   
+    animation-name:szerokosc;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+
+    -webkit-animation-name:szerokosc;
+    -webkit-animation-duration:5s;
+    -webkit-animation-iteration-count:infinite;
+}
+
+#two{ 
+    position: relative; 
+    left: 10px;
+    animation-name:szeko;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+
+    -webkit-animation-name:szeko;
+    -webkit-animation-duration:5s;
+    -webkit-animation-iteration-count:infinite;
+}
+
+#tree {
+    position: relative;
+    left: -10px;
+    animation-name:szeroko;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+
+    -webkit-animation-name:szeroko;
+    -webkit-animation-duration:5s;
+    -webkit-animation-iteration-count:infinite;
+}
+
+@keyframes szerokosc
+      {
+        0% { left: -30px; }
+        25% { left:0px; } 
+        50% {left: 30px;}
+        75% {left:0px}
+        100% {left: -30px;}
+      }
+      
+      @keyframes szeko
+      {
+        0% { left:0px; }
+        25% {left: 30px;}
+        50% {left:0px}
+        75% { left:-30px; }
+        100% {left: 0px;}
+       
+      }
+
+ @keyframes szeroko
+      {
+        0% { left:30px; }
+        25% {left:0px;}
+        50% { left:-30px; }
+        75%{left:0px;}
+        100% {left:30px;}
+      }
+
+
+#for {
+    position: relative; 
+    text-align: center;
+}
+
+.list-group-item:hover {
+    opacity : 0.70;
+filter : alpha(opacity=70);
+}
+
+#blok {
+-moz-animation: 10s infinite hustu;
+-moz-transform-origin: center top;
+-webkit-animation:hustu 10s infinite; 
+}
+@-webkit-keyframes hustu {
+    0% { -webkit-transform:translateX(0); padding-left:60%; }
+    50% { -webkit-transform:translateX(-60%); padding-left:30%; }
+  }
+
+h2 {
+    position: relative;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+#ja {
+    position: relative;
+    left: 5%;
+    top: 5px;
+}
+
+
+
+.pierwsza i{
+    font-size: 3em;
+}
+.pierwsza i:hover{
+    font-size: 4em;
+}
+.pierwsza a{
+    color: black;
+}
+.pierwsza .card{
+    padding: 20px;
+    color: black;
+    border: 9px double #696969;
+}
+.druga{
+    height: 100px;
+}
+.trzecia i{
+    font-size: 1em;
+}
+.cytat{
+    height: 100px;
+}
+.cytat blockquote{
+    padding: 20px;
+}
+.cytat footer{
+    margin-top: 10px;
+    text-align: right;
+}
+.content-galeria{
+    margin: 25px 0;
+}
+.galeria{
+    margin: 25px 0;
+}
+#kon{
+    margin: 50px;
+}
+#autor{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#autor h2{
+    margin-bottom: 50px;
+    text-align: center;
+}
+#napisgal{
+    margin-top: 50px;
+}
+#tekstolas{
+    padding-top: 50px;
+}
+#podpisfilm{
+    margin-top: 25px;
+}
+#stopka{
+    padding-top: 15px;
+}
+
+#co {
+    background: #313139;
+}
